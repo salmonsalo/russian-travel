@@ -2,7 +2,6 @@
     margin-top: 48px;
     width: 100%; /* 320px*/
     height: 126.875%;/* 406px*/
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
