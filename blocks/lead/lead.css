@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 1024px) {
     .lead {
-        width: 90.625%; 
+        width: 90.625%;
         height: 93.9453125%;
         margin-right: 48px;
         margin-left: 48px;
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1280px) {
     .lead {
-        width: 76.875%; 
+        width: 76.875%;
         height: 78.515625%;
         margin-top: 56px;
         margin-right: 148px;
