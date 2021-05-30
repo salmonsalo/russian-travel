@@ -1,0 +1,25 @@
+.place {
+    min-width: 76.85%;
+    min-height: 75.3125%;
+    margin-bottom: 50px;
+    border: 1px solid springgreen;
+    display: grid;
+    
+}
+
+
+@media screen and (min-width: 768px) {
+    .place {
+        grid-template-columns: repeat(2, 1fr);  
+        gap: 48px 28px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place {
+        grid-template-columns: repeat(2, 1fr);  
+        gap: 48px 32px;
+
+    }
+}

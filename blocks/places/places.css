@@ -1,0 +1,28 @@
+.places {
+    min-width: 76.875%;
+    min-height: 265%;
+    margin-top: 64px;
+    margin-bottom: 66px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .places {
+       margin: 88px 24px 90px 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .places {
+       margin: 92px 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places {
+       margin-left: 148px;
+       margin-right: 148px;
+    }
+}

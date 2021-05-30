@@ -1,0 +1,28 @@
+.intro {
+    border: 1px solid green;
+    min-width: 53.90625%; /* 288px */
+    min-height: 33.515625%; /* 754px */
+    margin: 64px 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        margin: 88px 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        margin: 92px 286px 92px 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        margin-left: 148px;
+        margin-right: 442px;
+    }
+}

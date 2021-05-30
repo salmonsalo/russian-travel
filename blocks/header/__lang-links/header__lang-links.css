@@ -1,0 +1,19 @@
+.header__lang-links {
+    width: 62px;
+    height: 20px;
+    display: flex;
+    position: relative;
+    top: 14px;
+    
+    /*position: absolute;
+    bottom: 8px;
+    right: 0;*/ 
+}
+
+@media screen and (min-width: 768px) {
+    .header__lang-links {
+        width: 77px;
+        height: 28px;
+        top: 18px;
+    }
+}

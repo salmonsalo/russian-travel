@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+.page {
+    background: #2A2C2F;
+    color: #FFFFFF;
+    min-width: 320px;
+    min-height: 6855px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', sans-serif;
+}

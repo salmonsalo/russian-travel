@@ -1,0 +1,28 @@
+.header {
+    width: 92.5%;  /* 288px */
+    height: 13.125%; /* 42px */
+    border: 1px solid red;
+    margin: 0px 16px;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+    
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        margin: 0px 24px;
+        padding-top: 28px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        margin: 0px 48px;
+        
+    }
+}
+
+ 
