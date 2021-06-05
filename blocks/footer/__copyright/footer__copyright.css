@@ -11,5 +11,6 @@
         display: inline;
         white-space: nowrap;
         line-height: 16px;
+        margin: 0;
     }
 }

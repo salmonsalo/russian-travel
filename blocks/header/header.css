@@ -1,13 +1,9 @@
 .header {
-    width: 92.5%;  /* 288px */
-    height: 13.125%; /* 42px */
+    width: 92.5%;
     margin: 0px 16px;
     padding-top: 16px;
     display: flex;
     justify-content: space-between;
-   
-   
-    
 }
 
 @media screen and (min-width: 768px) {

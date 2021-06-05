@@ -3,18 +3,26 @@
     min-height: 2.34375%;
     padding: 64px 118px 24px 16px;
     
-    display: flex;
+    display: grid;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
        padding: 88px 24px 24px 24px;
-    
+       grid-template-columns: 465px 186px;
+       gap: 69px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .footer {
        padding: 92px 48px 24px 48px;
+       gap: 277px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+       gap: 533px;
     }
 }

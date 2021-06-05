@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__lang-link_active {
     margin-right: 18px;
     text-decoration: underline;
     color: #FFFF;
@@ -8,13 +8,13 @@
     text-align: right;
 }
 
-.header__lang-link:last-child {
-    margin-right: 0;
-    text-decoration: none;
+.header__lang-link_active:hover {
+    opacity: .8;
 }
 
+
 @media screen and (min-width: 768px) {
-    .header__lang-link {
+    .header__lang-link_active {
         font-size: 24px;
         line-height: 28px;
 

@@ -1,8 +1,7 @@
 .intro__text {
     margin-top: 40px;
     margin-bottom: 34px;
-    width: 288px;
-    height: 520px;
+    width: 100%;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -12,15 +11,6 @@
 
 @media screen and (min-width: 768px) {
     .intro__text  {
-        width: 720px;
-        height: 208px;
         margin-bottom: 33px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .intro__text  {
-        width: 690px;
-        height: 208px;
     }
 }

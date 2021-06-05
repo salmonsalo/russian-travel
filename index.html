@@ -4,48 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
     <div class="page">
         <header class="header">
-            <img class="header__logo" src="./images/header-logo.svg" alt="logo_Россия">
+            <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
             <div class="header__lang-links">
-                <a href="#" class="header__lang-link">Ru</a>
-                <a href="#" class="header__lang-link">En</a>
+                <a href="#" class="header__lang-link_active">Ru</a>
+                <a href="#" class="header__lang-link_inactive">En</a>
             </div>
         </header>
         <main class="content">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
-                <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-                <img class="lead__image" src="./images/lead-image.jpg" alt="lead__image">
+                <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+                <img class="lead__image" src="./images/lead-image.jpg" alt="Изображение_Путешествия_по_России">
                 <p class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</p>
             </section>
             <section class="intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li>Часовых поясов 11</li>
-                    <li>Объектов природного наследия ЮНЕСКО 12</li>
-                    <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li>Природных заповедников 105</li>
-                    <li>Аэропортов 241</li>
+                    <li>Часовых поясов <span class="intro__list_normal">11</span></li>
+                    <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_normal">12</span></li>
+                    <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_normal">16</span></li>
+                    <li>Природных заповедников <span class="intro__list_normal">105</span></li>
+                    <li>Аэропортов <span class="intro__list_normal">241</span></li>
                 </ul>
             </section>
             <section class="photo-grid">
-                <img class="photo-grid__item" src="./images/photo-grid1.jpg" alt="photo1">
-                <img class="photo-grid__item" src="./images/photo-grid2.jpg" alt="photo2">
-                <img class="photo-grid__item" src="./images/photo-grid3.jpg" alt="photo3">
-                <img class="photo-grid__item" src="./images/photo-grid4.jpg" alt="photo4">
-                <img class="photo-grid__item" src="./images/photo-grid5.jpg" alt="photo5">
-                <img class="photo-grid__item" src="./images/photo-grid6.jpg" alt="photo6">
-                <img class="photo-grid__item" src="./images/photo-grid7.jpg" alt="photo7">
-                <img class="photo-grid__item" src="./images/photo-grid8.jpg" alt="photo8">
-                <img class="photo-grid__item" src="./images/photo-grid9.jpg" alt="photo9">
-                <img class="photo-grid__item" src="./images/photo-grid10.jpg" alt="photo10">
-                <img class="photo-grid__item" src="./images/photo-grid11.jpg" alt="photo11">
-                <img class="photo-grid__item" src="./images/photo-grid12.jpg" alt="photo12">
+                <img class="photo-grid__item" src="./images/photo-grid1.jpg" alt="Фото1">
+                <img class="photo-grid__item" src="./images/photo-grid2.jpg" alt="Фото2">
+                <img class="photo-grid__item" src="./images/photo-grid3.jpg" alt="Фото3">
+                <img class="photo-grid__item" src="./images/photo-grid4.jpg" alt="Фото4">
+                <img class="photo-grid__item" src="./images/photo-grid5.jpg" alt="Фото5">
+                <img class="photo-grid__item" src="./images/photo-grid6.jpg" alt="Фото6">
+                <img class="photo-grid__item" src="./images/photo-grid7.jpg" alt="Фото7">
+                <img class="photo-grid__item" src="./images/photo-grid8.jpg" alt="Фото8">
+                <img class="photo-grid__item" src="./images/photo-grid9.jpg" alt="Фото9">
+                <img class="photo-grid__item" src="./images/photo-grid10.jpg" alt="Фото10">
+                <img class="photo-grid__item" src="./images/photo-grid11.jpg" alt="Фото11">
+                <img class="photo-grid__item" src="./images/photo-grid12.jpg" alt="Фото12">
             </section>
             <section class="places">
                 <div class="place">
@@ -110,7 +110,7 @@
             </section>
             <section class="cover">
                 <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-                    <h4 class="cover__title">До Байкала «на собаках»</h4>
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
                     <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
                 </a>
             </section>
@@ -124,8 +124,8 @@
                     <li class="footer__link"><a href="https://calendar.yandex.ru" class="footer__item">Календарь</a></li>
                     <li class="footer__link"><a href="https://travel.yandex.ru" class="footer__item">Путешествия</a></li>
                 </ul>
-                <p class="footer__copyright"> &copy;2020. Svetlana Kataeva</p>
             </nav>
+            <p class="footer__copyright"> &copy;2020. Svetlana Kataeva</p>
         </footer>
     </div>
 </body>

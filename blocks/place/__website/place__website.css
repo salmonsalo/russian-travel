@@ -1,9 +1,9 @@
 .place__website {
     width: 288px;
-    height: 46px;
     margin: 32px 16px;
     display: flex;
     flex-direction: column;
+    align-self: end;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,6 +1,5 @@
 .intro {
-    min-width: 53.90625%; /* 288px */
-    min-height: 33.515625%; /* 754px */
+    min-width: 53.90625%;
     margin: 64px 16px;
     display: flex;
     flex-direction: column;

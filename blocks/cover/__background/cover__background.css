@@ -11,13 +11,15 @@
     bottom: 0;
 
     background-image: url(../../../images/cover.jpg);
-    max-width: 100vw;
-    min-height: 62.5vw;
     background-size: cover;
     background-position: center;
     position: relative;
     box-sizing: border-box;
     padding: 33px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover__background::before {

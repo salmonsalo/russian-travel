@@ -4,19 +4,8 @@
     list-style-type: none;
     font-size: 12px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
+    font-weight: 700;
     line-height: 18px;
     text-align: left;
-}
-
-
-@media screen and (min-width: 768px) {
-    .intro__text  {
-        width: 720px;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .intro__text  {
-        width: 690px;
-    }
 }
