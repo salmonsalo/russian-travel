@@ -5,7 +5,7 @@
 
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
-@import "../blocks/header/__lang-links/header__lang-links.css";
+@import "../blocks/header/__lang-links/header__lang-link.css";
 @import "../blocks/header/__lang-link_active/header__lang-link_active.css";
 @import "../blocks/header/__lang-link_inactive/header__lang-link_inactive.css";
 
@@ -19,7 +19,7 @@
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list/intro__list.css";
-@import "../blocks/intro/__list_normal/intro__list_normal.css";
+@import "../blocks/intro/__list_normal/intro__list-normal.css";
 
 @import "../blocks/photo-gird/photo-grid.css";
 @import "../blocks/photo-gird/__item/photo-grid__item.css";
