@@ -1,6 +1,6 @@
-.header__lang-link_active {
-    margin-right: 18px;
-    text-decoration: underline;
+.header__link-inactive {
+    margin-right: 0;
+    text-decoration: none;
     color: #FFFF;
     font-size: 18px;
     font-weight: 400;
@@ -8,13 +8,12 @@
     text-align: right;
 }
 
-.header__lang-link_active:hover {
+.header__link-inactive:hover {
     opacity: .8;
 }
 
-
 @media screen and (min-width: 768px) {
-    .header__lang-link_active {
+    .header__link-inactive {
         font-size: 24px;
         line-height: 28px;
 
