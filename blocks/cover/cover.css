@@ -1,5 +1,5 @@
 .cover {
-    max-height: 57.8125%; 
+    min-height: 57.8125%; 
 }
 
 @media screen and (min-width: 1280px) {
